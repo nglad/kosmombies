@@ -48,7 +48,7 @@ function create() {
     game.physics.arcade.gravity.y = 250;
 
     player = game.add.sprite(32, 32, 'dude');
-    game.physics.enable(player, Phaser.Physics.ARCADE);
+    //game.physics.enable(player, Phaser.Physics.ARCADE);
 
     player.body.bounce.y = 0.2;
     player.body.collideWorldBounds = true;
